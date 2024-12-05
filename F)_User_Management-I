@@ -47,11 +47,11 @@ fields in below files
 
 /etc/gshadow - Groupname:group password:group id admin:Members of group
 
-
-
 #ls -l /home
 #ls -l /var/spool/mail/
 #cd /var/spool/mail/
+
+getent group <group_name> -- to see the members of group
 
 create an user account
 ==========================
