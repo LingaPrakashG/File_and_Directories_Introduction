@@ -43,6 +43,12 @@ To check ethernet card status
 #ethtool ens160
 #ethtool ens192
 
+to check whether the port are listening:
+========================================
+
+# telnet <ipaddress> portnumber
+# nmap -p 22 ipaddress
+
 255.255.255.0
 connection modify
 ====================
