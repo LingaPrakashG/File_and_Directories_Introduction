@@ -261,3 +261,8 @@ create mount point - /data-1,/data-2
 mount /dev/sdc1 /data-1
 mount /dev/sdc2 /data-2
 for permanent mount add fstab entry
+
+
+Wipe the File System: To wipe all file system signatures from the partition:
+sudo wipefs -a /dev/sdX1
+The -a option removes all file system signatures. Be careful with this command as it irreversibly erases metadata.
